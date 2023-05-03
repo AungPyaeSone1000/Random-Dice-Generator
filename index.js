@@ -11,10 +11,10 @@ img2.src = "images/dice"+randomNumber2+".png";
 if (randomNumber1 > randomNumber2){
     document.getElementsByTagName("h1")[0].innerHTML = "Player 1 won!!";
 }
-if (randomNumber2 > randomNumber1){
+else if (randomNumber2 > randomNumber1){
     document.getElementsByTagName("h1")[0].innerHTML = "Player 2 won!!";
 }
-if (randomNumber1 == randomNumber2) {
+else {
     document.getElementsByTagName("h1")[0].innerHTML = "It's draw";
 }
 
